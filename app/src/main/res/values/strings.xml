@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">20220815DB</string>
+    <string name="app_name">StudentDatabase</string>
     <string name="StudentName">Enter student name</string>
     <string name="RollNumber">Enter roll number</string>
     <string name="IsEnrolled">IsEnrolled</string>

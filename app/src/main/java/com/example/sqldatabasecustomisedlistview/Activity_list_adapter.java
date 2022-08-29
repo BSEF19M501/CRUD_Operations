@@ -27,7 +27,7 @@ public class Activity_list_adapter extends AppCompatActivity {
                 name=findViewById(R.id.name);
                 rollno=findViewById(R.id.rollno);
                 MainActivity.sStatus= (String) name.getText();
-                name.setText("nabiha");
+                name.setText("name");
             }
         });
     }

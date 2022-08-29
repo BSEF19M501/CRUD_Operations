@@ -50,7 +50,7 @@ public class List_Adapter extends ArrayAdapter<StudentModel> {
             public void onClick(View v) {
 
                // MainActivity.editName= (String) name.getText();
-               // name.setText("nabiha");
+               // name.setText("name");
                 DBHelper dbHelper  = new DBHelper(getContext());
                 dbHelper.deleteStudent(Integer.toString(sm.getRollNmber()));
 
@@ -83,6 +83,7 @@ public class List_Adapter extends ArrayAdapter<StudentModel> {
                 txtrollno.setText(Integer.toString(sm.getRollNmber()));
                 isenroll.setChecked(sm.isEnroll());
                 update.setVisibility(View.VISIBLE);
+                pointer.setVisibility(View.GONE);
             }
         });
         return convertView;
